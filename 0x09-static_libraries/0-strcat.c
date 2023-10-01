@@ -1,10 +1,10 @@
 #include "main.h"
  /**
- *_strcat - concatenates two strings
- * @dest: input value
- * @src: input value
+ * _strcat - concatenates two strings
+ * @dest: The destination string
+ * @src: source string to be appended
  *
- * Return: void
+ * Return: a pointer to the concantenated string (dest)
  */
 char *_strcat(char *dest, char *src)
 {
@@ -16,6 +16,7 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
+
 	j = 0;
 	while (src[j] != '\0')
 	{
